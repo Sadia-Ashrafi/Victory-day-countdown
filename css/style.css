@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.wrapper{
+    width:100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.container{
+    width:1170px;
+    padding: 100px 0px;
+}
+
+.victory{
+    width:450px;
+    float: left;
+    font-size:80px ;
+}
+
+.time{
+    width:160px;
+    float:left;
+    background-color:red;
+    color:#fff;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    margin-left:20px;
+    padding: 50px 0px;
+    text-align:center;
+    text-transform:capitalize;
+}
+
+.time h3{
+    font-size: 40px;
+}
+.time p{
+    font-size:25px;
+}
